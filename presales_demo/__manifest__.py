@@ -6,7 +6,9 @@
     'website': 'https://www.example.com',
     'category': 'Sales',
     'depends': ['purchase'],
-    'data': [],
+    'data': [
+        'views/purchase_order_view.xml',
+    ],
     'installable': True,
     'application': False,
 }
